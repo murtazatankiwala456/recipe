@@ -1,0 +1,28 @@
+body {
+  background-color: #ffffffcc;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  background-color: #734060;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+form {
+  background-color: #734060;
+  color: #ffffffcc;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #edb654;
+  border: none;
+  color: #ffffffcc;
+}
