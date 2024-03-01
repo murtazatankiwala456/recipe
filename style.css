@@ -25,3 +25,8 @@ footer {
   padding: 5px;
   margin-top: 5px;
 }
+@media (max-width: 380px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
