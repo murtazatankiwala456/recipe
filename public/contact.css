@@ -6,6 +6,9 @@ body {
   margin: 0;
   padding: 0;
 }
+main {
+  height: 100vh;
+}
 h1 {
   background-color: #734060;
   color: white;
@@ -25,4 +28,11 @@ button {
   background-color: #edb654;
   border: none;
   color: #ffffffcc;
+}
+footer {
+  background-color: #734060;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 5px;
 }

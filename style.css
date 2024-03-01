@@ -15,6 +15,9 @@ h1 {
 .navbar a {
   text-decoration: none;
 }
+.menu {
+  height: 100vh;
+}
 footer {
   background-color: #734060;
   color: white;
