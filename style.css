@@ -6,14 +6,25 @@ body {
   margin: 0;
   padding: 0;
 }
+main {
+  text-align: center;
+}
+
 h1 {
   color: #734060;
+}
+.navbar ul {
+  /* background-color: red; */
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
 }
 .navbar ul li {
   list-style: none;
 }
 .navbar a {
   text-decoration: none;
+  color: black;
 }
 .menu {
   height: 100vh;
@@ -26,6 +37,10 @@ footer {
   margin-top: 5px;
 }
 @media (max-width: 380px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
   h1 {
     font-size: 1.5rem;
   }

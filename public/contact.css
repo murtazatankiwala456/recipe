@@ -6,9 +6,10 @@ body {
   margin: 0;
   padding: 0;
 }
-main {
+.container {
   height: 100vh;
 }
+
 h1 {
   background-color: #734060;
   color: white;
@@ -16,26 +17,30 @@ h1 {
   padding: 5px;
   margin: 0;
 }
+.form-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 form {
   background-color: #734060;
-  color: #ffffffcc;
-  max-width: 500px;
-  margin: 0 auto;
-
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  width: 80%;
+  border-radius: 5px;
   padding: 20px;
 }
+label {
+  color: white;
+}
 input {
-  padding: 8px;
+  padding: 10px;
 }
 
-input,
-textarea {
-  display: block;
-  width: 100%;
-  border: 1px solid grey;
-  border-radius: 5px;
-  outline: none;
-}
 button {
   padding: 10px 20px;
   font-size: 1rem;
